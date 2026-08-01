@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.MoodTracker" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.MoodTracker" parent="Base.Theme.MoodTracker" />
+
+    <style name="Theme.MoodTracker.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.MoodTracker</item>
+    </style>
+</resources>

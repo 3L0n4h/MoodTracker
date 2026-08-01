@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:id="@+id/askUI"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:paddingHorizontal="30dp">
+
+<TextView
+    android:id="@+id/txt_edit_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10sp"
+    android:text="Edit Mood"
+    android:textAlignment="center"
+    android:textSize="26sp" />
+
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:counterEnabled="true"
+    app:counterMaxLength="150">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txt_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="150"
+        />
+</com.google.android.material.textfield.TextInputLayout>
+
+
+<include
+    android:id="@+id/moodSelector"
+    layout="@layout/mood_selector" />
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+
+    <!-- Primary -->
+    <color name="primary_purple">#6A1B9A</color>
+    <color name="light_purple">#F3E5F5</color>
+    <color name="soft_lavender">#FAF7FC</color>
+
+    <!-- Neutral -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="text_dark">#333333</color>
+    <color name="text_gray">#757575</color>
+
+    <!-- Accent -->
+    <color name="accent_orange">#FF9800</color>
+    <color name="accent_yellow">#FFC107</color>
+
+    <!-- Mood colors -->
+    <color name="mood_excited">#F6D365</color> <!-- yellow -->
+    <color name="mood_happy">#FFB86B</color>   <!-- orange -->
+    <color name="mood_neutral">#AEB7B9</color> <!-- gray -->
+    <color name="mood_sad">#B65AA6</color>     <!-- pink purple -->
+    <color name="mood_mad">#6E75B8</color>     <!-- purple blue -->
+
+    <color name="transparent">#00000000</color>
+
+</resources>

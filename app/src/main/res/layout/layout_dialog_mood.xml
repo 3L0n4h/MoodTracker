@@ -1,0 +1,57 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:minHeight="180dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/dialog_mood_bg">
+
+
+    <!-- Top row: close button -->
+    <TextView
+        android:id="@+id/dialogClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="×"
+        android:textSize="28sp"
+        android:textColor="@color/primary_purple"
+        android:padding="4dp"/>
+
+
+    <!-- Content row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp">
+
+
+        <!-- Mood icon left -->
+        <ImageView
+            android:id="@+id/dialogMoodIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="Mood icon"/>
+
+
+        <!-- Note -->
+        <TextView
+            android:id="@+id/dialogNote"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="test content"
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:lineSpacingExtra="4dp"
+            android:maxLines="6"
+            android:ellipsize="end"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="SU"
+        android:textAlignment="center"
+        android:textColor="@color/text_gray"
+        android:background="@drawable/header_divider"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="MO"
+        android:textAlignment="center"
+        android:textColor="@color/text_gray"
+        android:background="@drawable/header_divider"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TU"
+        android:textAlignment="center"
+        android:textColor="@color/text_gray"
+        android:background="@drawable/header_divider"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="WE"
+        android:textAlignment="center"
+        android:textColor="@color/text_gray"
+        android:background="@drawable/header_divider"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TH"
+        android:textAlignment="center"
+        android:textColor="@color/text_gray"
+        android:background="@drawable/header_divider"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="FR"
+        android:textAlignment="center"
+        android:textColor="@color/text_gray"
+        android:background="@drawable/header_divider"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="SA"
+        android:textAlignment="center"
+        android:textColor="@color/text_gray"
+        android:background="@drawable/header_divider"/>
+
+</LinearLayout>
