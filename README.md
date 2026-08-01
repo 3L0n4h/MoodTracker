@@ -5,20 +5,20 @@ Mood Tracker App is an android app that let's you journal your mood for the day.
 ## Screenshots
 
 ### Splash Screen
-<img src="Screenshots/Splash.jpg" width="250">
+<img src="Screenshots/Splash.jpg" width="300">
 
 ### Input Mood and Calendar
-<img src="Screenshots/Calendar.jpg" width="250">
+<img src="Screenshots/Calendar.jpg" width="300">
 
 ### View your mood in Calendar
-<img src="Screenshots/View_InCalendar.jpg" width="250">
+<img src="Screenshots/View_InCalendar.jpg" width="300">
 
 ### Mood Bar Chart
-<img src="Screenshots/BarChart.jpg" width="250">
+<img src="Screenshots/BarChart.jpg" width="300">
 
 ### Edit Mood Entry
-<img src="Screenshots/Screenshots/Edit_Preview.jpg" width="250">
+<img src="Screenshots/Edit_Preview.jpg" width="300">
 
 ### Whole Scrolled Screen View
-<img src="Screenshots/Screenshots/AppPreview.jpg" width="250">
+<img src="Screenshots/AppPreview.jpg" width="300">
 
